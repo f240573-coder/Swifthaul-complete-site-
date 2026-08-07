@@ -72,9 +72,13 @@ export default function HomePage() {
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Link>
                 </Button>
-                <Button asChild size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
-                  <Link href="/contact">Get a Quote</Link>
-                </Button>
+   <Button
+  asChild
+  size="lg"
+  className="bg-accent hover:bg-accent/90 text-accent-foreground"
+>
+  <Link href="/contact">Get a Quote</Link>
+</Button>
               </div>
             </div>
           </div>
